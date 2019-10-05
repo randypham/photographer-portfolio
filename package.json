@@ -1,0 +1,23 @@
+{
+  "name": "photographer-portfolio",
+  "version": "1.0.0",
+  "description": "Portfolio website for a photographer.",
+  "main": "app.js",
+  "scripts": {
+    "gulp": "gulp"
+  },
+  "author": "Randy Pham",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.6.2",
+    "@babel/preset-env": "^7.6.2",
+    "browser-sync": "^2.26.7",
+    "del": "^5.1.0",
+    "gulp": "^4.0.2",
+    "gulp-autoprefixer": "^7.0.1",
+    "gulp-babel": "^8.0.0",
+    "gulp-sass": "^4.0.2",
+    "gulp-sourcemaps": "^2.6.5",
+    "gulp-uglify": "^3.0.2"
+  }
+}
