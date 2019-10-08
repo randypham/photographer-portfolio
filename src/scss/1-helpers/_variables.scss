@@ -1,0 +1,40 @@
+// Colors
+$cyber-grape: #5d4970;
+$purple-gray: #59535e;
+$magnolia: #faeeff;
+$electric-lavender-gray: #f1baf3;
+
+$black: #111;
+$white: #fff;
+
+$gray: #999;
+$gray-dark-1: #777;
+$gray-dark-2: #555;
+$gray-dark-3: #333;
+$gray-light-1: #ccc;
+$gray-light-2: #ddd;
+$gray-light-3: #f8f8f8;
+
+$primary-color: $cyber-grape;
+$primary-light-color: lighten($primary-color, 5%);
+$secondary-color: $purple-gray;
+$secondary-light-color: lighten($secondary-color, 5%);
+
+$text-color: $gray-dark-2;
+$heading-color: $gray-dark-2;
+
+// Typography
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans:400,600');
+
+$font-sans-serif: 'Josefin Sans', verdana, sans-serif;
+$font-serif: sans-serif;
+$font-size: 16px;
+
+// Animation
+$transition-speed-normal: 0.1s;
+
+// Media Query Breakpoints
+$breakpoint-sm: 576px;
+$breakpoint-md: 768px;
+$breakpoint-lg: 992px;
+$breakpoint-xl: 1200px;
