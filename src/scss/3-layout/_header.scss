@@ -1,0 +1,26 @@
+.header {
+  background: $white;
+  padding: 1rem 0;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  right: 0;
+  z-index: 1;
+
+  &-container {
+    max-width: 1140px;
+    margin: 0 auto;
+    padding: 0 1rem;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+
+  &-title {
+    color: $text-color;
+    text-decoration: none;
+    font-size: 1.2rem;
+  }
+}
