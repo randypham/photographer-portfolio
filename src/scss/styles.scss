@@ -9,8 +9,12 @@
 @import '2-base/base';
 
 // 3 - LAYOUT
+@import '3-layout/container';
 @import '3-layout/header';
 
 // 4 - COMPONENTS
 @import '4-components/nav';
 @import '4-components/hero';
+
+// 4 - PAGES
+@import '5-pages/home';

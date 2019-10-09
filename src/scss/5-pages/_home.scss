@@ -1,0 +1,25 @@
+#home-hero {
+  background-image: linear-gradient(rgba($black, 0.25), rgba($black, 0.25)),
+    url('../img/hero-sm.jpg');
+  background-size: cover;
+  background-position: 50% 90%;
+  background-repeat: no-repeat;
+  margin-top: 73px;
+  @include bp-md {
+    background-image: linear-gradient(rgba($black, 0.25), rgba($black, 0.25)),
+      url('../img/hero-md.jpg');
+    margin-top: 66px;
+  }
+  @include bp-lg {
+    background-image: linear-gradient(rgba($black, 0.25), rgba($black, 0.25)),
+      url('../img/hero-lg.jpg');
+  }
+
+  .hero-title {
+    text-shadow: 0 0 40px rgba($black, 0.5);
+  }
+
+  .hero-lead {
+    text-shadow: 0 0 30px rgba($black, 0.5);
+  }
+}
