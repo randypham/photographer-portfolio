@@ -1,0 +1,14 @@
+#about {
+  .grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 1.75rem;
+    @include bp-md {
+      grid-template-columns: 1fr 1fr;
+    }
+  }
+
+  img {
+    display: block;
+  }
+}
