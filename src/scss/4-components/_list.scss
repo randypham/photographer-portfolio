@@ -1,0 +1,11 @@
+.list-inline {
+  list-style: none;
+
+  &-item {
+    display: inline-block;
+    margin-right: 0.5rem;
+    &:last-child {
+      margin-right: 0;
+    }
+  }
+}

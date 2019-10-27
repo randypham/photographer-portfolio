@@ -1,0 +1,32 @@
+.footer {
+  padding: 2rem 0;
+
+  .grid {
+    display: grid;
+    grid-template-columns: auto;
+    grid-gap: 1.75rem;
+    text-align: center;
+    @include bp-md {
+      grid-template-columns: auto auto;
+      text-align: left;
+    }
+  }
+
+  .social-links {
+    a {
+      color: $primary-color;
+      text-decoration: none;
+      transition: color $transition-speed-normal;
+      &:hover {
+        color: $primary-light-color;
+      }
+    }
+  }
+
+  .copyright-text {
+    margin: 0;
+    @include bp-md {
+      text-align: right;
+    }
+  }
+}
