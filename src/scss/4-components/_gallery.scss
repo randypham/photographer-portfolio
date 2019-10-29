@@ -1,0 +1,16 @@
+.gallery {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-gap: 1.75rem;
+  @include bp-sm {
+    grid-template-columns: 1fr 1fr;
+  }
+  @include bp-md {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+
+  img {
+    display: block;
+    cursor: pointer;
+  }
+}

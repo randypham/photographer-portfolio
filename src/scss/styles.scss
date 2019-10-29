@@ -11,6 +11,7 @@
 
 // 3 - LAYOUT
 @import '3-layout/container';
+@import '3-layout/grid';
 @import '3-layout/header';
 @import '3-layout/section';
 @import '3-layout/footer';
@@ -21,9 +22,8 @@
 @import '4-components/button';
 @import '4-components/list';
 @import '4-components/form';
+@import '4-components/modal';
+@import '4-components/gallery';
 
 // 4 - PAGES
 @import '5-pages/home';
-@import '5-pages/about';
-@import '5-pages/work';
-@import '5-pages/contact';

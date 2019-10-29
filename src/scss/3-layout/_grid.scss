@@ -1,0 +1,23 @@
+.grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-gap: 1.75rem;
+}
+
+.is-2-columns-sm {
+  @include bp-sm {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+.is-2-columns-md {
+  @include bp-md {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+.is-3-columns-md {
+  @include bp-md {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
