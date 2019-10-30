@@ -9,7 +9,7 @@
   },
   "author": "Randy Pham",
   "license": "ISC",
-  "homepage": "https://randypham.github.io/photographer-portfolio/index.html",
+  "homepage": "https://randypham.github.io/photographer-portfolio",
   "devDependencies": {
     "@babel/core": "^7.6.2",
     "@babel/preset-env": "^7.6.2",
